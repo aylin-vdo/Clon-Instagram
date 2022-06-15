@@ -1,0 +1,39 @@
+{
+  "publicaciones": [
+      {
+          "usuario": "@polaroid333",
+          "imagen": "../assets/imagenes/1.jpg",
+          "caption": "holaa",
+          "comentario": "", 
+          "id": "01"
+        },
+        {
+          "usuario": "@polaroid333",
+          "imagen": "../assets/imagenes/2.jpg",
+          "caption": "que bonito dia",
+          "comentario": "", 
+          "id": "02"
+        },
+        {
+          "usuario": "@polaroid333",
+          "imagen": "../assets/imagenes/3.jpg",
+          "caption": "de vacaciones...",
+          "comentario": "", 
+          "id": "03"
+        }
+  ],
+  "usuario" : {
+    "nombre":"alicia",
+    "alias": "@polaroid333",
+    "fotoPerfil": "../assets/imagenes/perfil.jpg",
+    "seguidores": 100,
+    "seguidos": 1,
+    "bio": "buenos dias!", 
+    "publicaciones": [
+      "../assets/imagenes/1.jpg",
+      "../assets/imagenes/2.jpg",
+      "../assets/imagenes/3.jpg"
+    ]
+  }
+}
+

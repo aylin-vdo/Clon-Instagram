@@ -1,0 +1,32 @@
+<ion-grid>
+    <ion-row>
+        <ion-col size-md="8" offset-md="2">
+            <ion-card>
+                <div>
+                    <ion-card-header>
+                        {{publicacionDetalle.usuario}}
+                    </ion-card-header>
+                    <ion-card-content>
+                        <img [src]="publicacionDetalle.imagen"  alt="">
+                        <p>{{publicacionDetalle.caption}}</p>
+                       
+                    </ion-card-content>
+                    <div class="footer">
+                        <div class="options">
+                            <ion-button fill="clear"><ion-icon name="heart"></ion-icon></ion-button>
+                            <ion-button fill="clear"><ion-icon name="paper-plane"></ion-icon></ion-button>
+                            <ion-button fill="clear"><ion-icon name="bookmark"></ion-icon></ion-button>
+                        </div>
+                        <div class="comentarios">
+                            <div>
+                                {{publicacionDetalle.comentario}}
+                            </div>
+                            
+                        </div>
+                    </div>
+            
+                </div>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+</ion-grid>
